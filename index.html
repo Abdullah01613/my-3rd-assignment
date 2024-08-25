@@ -14,19 +14,45 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind config     -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
 </head>
 <body>
-    <h1 class="text-clifford ">hi wafi</h1>
+  <header>
+    <nav class="w-11/12 mx-auto">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          
+          <div class="h-7 w-7 bg-lime-400 text-center justify-center border rounded-[50%] rotate-[-35deg]">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+          <a class="text-xl font-bold">Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="font-bold">Home </a></li>
+            <li>
+              <a>Services</a>
+            </li>
+            <li><a>portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+          <div class="navbar-end gap-2 text-center justify-center hidden lg:flex">
+            <div class="h-8 w-9 text-center justify-center border rounded-[50%]">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="h-8 w-9 text-center justify-center border rounded-[50%]">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="flex text-center justify-center bg-lime-400 rounded-[20px] py-2 px-4 gap-2">
+              <h3 class="font-bold">Book Consult</h3>
+              <div class="h-7 w-7 text-white bg-black text-center justify-center border rounded-[50%] rotate-[-35deg]">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 </body>
 </html>
